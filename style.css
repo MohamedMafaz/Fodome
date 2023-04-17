@@ -411,9 +411,55 @@ button {
   font-size: 24px;
   cursor: pointer;
 }
+/* Hide the FAQ answers by default */
 
 .faq-answer {
   display: none;
   font-size: 18px;
   margin-top: 10px;
+}
+
+/* Show the FAQ answers when the show-answer class is added */
+.show-answer {
+  display: block;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+#search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  width: 400px;
+  height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  
+}
+.search-button {
+ text-align: center;
+ background-color: #F54749;
+}
+
+#search-input {
+  flex: 1;
+  border: none;
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+  margin-right: 10px;
+}
+
+.search-input input[type="text"] {
+  border: none;
+  font-size: 16px;
+  height: 100%;
+  outline: none;
+  width: 100%;
 }
