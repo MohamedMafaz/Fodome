@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     }
 
-nav {
+nav {z-index: 9999;
   position: fixed;
   top: 0;
   width: 100%;
