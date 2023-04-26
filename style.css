@@ -53,6 +53,7 @@ button {
 .Logo {
   margin-top: 10px;
   margin-left: 20px;
+  float: left;
 }
 
 .specialties {
@@ -104,6 +105,7 @@ button {
   margin-top: 40px;
   text-align: left;
   margin-left: 80px;
+  margin-top: -20px;
 }
 
 .recentlyordered-line {
@@ -122,8 +124,9 @@ button {
   height: 380px;
   border-radius: 10px;
   overflow: hidden;
-  margin-right: 20px;
+  margin-right: -50px;
   margin-bottom: 20px;
+  margin-left: 80px;
 }
 
 .product-image {
@@ -152,6 +155,10 @@ button {
   background-color: rgba(0, 0, 0, 0.3) ;
   transition: all 0.3s ease-in-out;
   transform: translateY(100%);
+}
+
+.itc {
+  margin-left: 80px;
 }
 
 
@@ -287,6 +294,7 @@ button {
   font-size: 19px;
   line-height: 1.5;
   margin-bottom: 30px;
+  margin-left: 80px;
 }
 
 .app-form {
@@ -294,6 +302,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 30px;
+  margin-left: 80px;
 }
 
 .form-group {
@@ -303,6 +312,8 @@ button {
   padding: 10px;
   border-radius: 50px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  width: 400px; 
+  height: 40px;
 }
 
 .form-group input {
@@ -323,6 +334,7 @@ button {
 .app-text {
   font-size: 14px;
   margin-bottom: 30px;
+  margin-left: 80px;
 }
 
 .app-btn {
@@ -373,7 +385,7 @@ button {
   font-size: 35px;
   line-height: 64px;
   letter-spacing: 0.02em;
-  color: #FFF9F9;
+  color: #F54749;
   margin-top: 20px;
 }
 
@@ -462,4 +474,165 @@ button {
   height: 100%;
   outline: none;
   width: 100%;
+}
+
+.herosection {
+  margin-left: 80px;
+}
+
+.herosectionimage {
+  float: right; 
+  margin-top: 80px; 
+  margin-right: 80px;
+}
+
+.worldwidesupply {
+  margin-top: 100px;
+}
+
+.herotitle {
+  font-family: 'Poppins'; 
+  font-style: normal; 
+  font-weight: 700; 
+  font-size: 49px; 
+  line-height: 64px; 
+  margin-top: 10px;
+}
+
+.worldwide {
+  color: #F54749;
+}
+
+.herodisc {
+  font-family: 'Poppins'; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 17px; 
+  line-height: 26px; 
+  margin-top: -30px;
+}
+
+.herobutton {
+  margin-top: 10px;
+}
+
+.worldoftaste {
+  margin-right: 200px
+}
+
+.pricematter {
+  margin-right: 175px
+}
+
+.dontbehungry {
+  margin-right: 20px
+}
+
+.specialtiesimage {
+  margin-left: 120px;
+}
+
+.special {
+  margin-left: 120px; 
+  display: flex; 
+  flex-direction: row; 
+  font-family: 'Poppins'; 
+  font-style: normal; 
+  font-weight: 700; 
+  font-size: 25px; 
+  line-height: 40px; 
+  letter-spacing: 0.02em; 
+  color: #F54749;
+}
+
+.specdesc {
+  text-align: center; 
+  margin-left: 120px; 
+  display: flex; 
+  flex-direction: row;
+  font-family: 'Poppins'; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 14px; 
+  line-height: 21px; 
+  letter-spacing: 0.02em;
+}
+
+.card {
+  margin-left: 0px; 
+  margin-right: 0px; 
+  border-radius: 50px;
+}
+
+h3 {
+  font-family: Poppins;
+}
+
+.journeyimg {
+  width: 100%;
+}
+
+.hotel {
+  margin-left: 0px; 
+  margin-right: 0px; 
+  border-radius: 50px;
+  margin-top: -420px;
+}
+
+.downloadtitle {
+  margin-left: 80px;
+}
+
+.icon {
+  margin-left: 20px; 
+  color: #F54749 ;
+}
+
+.submitbutton {
+  color: #fff; 
+  background-color: #F54749; 
+  text-align: center; 
+  font-size: 14px;
+}
+
+.getiton {
+  width: 425px; 
+  height: 130px; 
+  margin-left: 70px; 
+  margin-top: -50px;
+}
+
+.mobilemockup {
+  width: 180px; 
+  height: 100%; 
+  margin-top: -100px;
+}
+
+.faqdesc {
+  margin-top: -30px; 
+  font-family: 'Poppins'; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 16px; 
+  line-height: 24px; 
+  /* identical to box height */ 
+  color: #000000;
+}
+
+i {
+  margin-left: 20px; 
+  color: #F54749 ;
+  margin-top: 800px;
+}
+
+.fodome {
+  color: #F54749;
+}
+
+.specdesc1 {
+  margin-right: 200px;
+}
+
+.specdesc2 {
+  margin-right: 175px;
 }
