@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFF9F9;
     font-family: 'Poppins', sans-serif;
@@ -640,4 +646,66 @@ i {
 
 .specdesc2 {
     margin-right: 175px;
+}
+
+.end {
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 232, 236);
+}
+
+.end1 {
+    width: 200px;
+    display: flex;
+
+}
+
+.end1 h3 {
+    padding-left: 20px;
+}
+
+.end2 {
+    width: 200px;
+    display: flex;
+
+}
+
+.end2 h3 {
+    padding-left: 20px;
+}
+
+.end3 {
+    width: 200px;
+    display: flex;
+
+}
+
+.end3 h3 {
+    padding-left: 20px;
+}
+
+.end1 li {
+    padding: 10px 0px;
+}
+
+.end2 li {
+    padding: 10px 0px;
+}
+
+.end3 li {
+    padding: 10px 0px;
+}
+
+footer {
+    position: relative;
+    height: 50px;
+    font-weight: bold;
+    background-color: rgb(255, 72, 72);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
