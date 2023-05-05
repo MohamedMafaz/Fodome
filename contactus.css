@@ -17,7 +17,6 @@ body {
   background: var(--primary);
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  padding-top: 80px;
 }
 
 /* Navigation Section */
@@ -66,7 +65,7 @@ button {
 
 /* Contact Us Section */
 #contact-container {
-  padding: 40px 80px;
+  padding: 160px 40px 80px;
   width: 100%;
 
   display: flex;
