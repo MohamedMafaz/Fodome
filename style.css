@@ -1,9 +1,16 @@
-body {
-    background-color: #FFF9F9;
-    font-family: 'Poppins', sans-serif;
-    }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-nav {z-index: 9999;
+body {
+  background-color: #FFF9F9;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  z-index: 9999;
   position: fixed;
   top: 0;
   width: 100%;
@@ -32,9 +39,9 @@ a {
   font-size: 15px;
 }
 
-a.home{
-    color:#F54749;
-    ;
+a.home {
+  color: #F54749;
+  ;
 }
 
 .list-container {
@@ -150,9 +157,10 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Align items to the center */
+  align-items: center;
+  /* Align items to the center */
 
-  background-color: rgba(0, 0, 0, 0.3) ;
+  background-color: rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease-in-out;
   transform: translateY(100%);
 }
@@ -194,7 +202,7 @@ button {
 
 .journey {
   text-align: center;
-  padding: 0  0;
+  padding: 0 0;
 }
 
 .journey-title {
@@ -218,7 +226,7 @@ button {
 
 .whoweare {
   text-align: center;
-  padding: 0  0;
+  padding: 0 0;
 }
 
 .whoweare-title {
@@ -312,7 +320,7 @@ button {
   padding: 10px;
   border-radius: 50px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  width: 400px; 
+  width: 400px;
   height: 40px;
 }
 
@@ -361,7 +369,8 @@ button {
 }
 
 ::placeholder {
-  font-size: 16px; /* replace with desired font size */
+  font-size: 16px;
+  /* replace with desired font size */
 }
 
 .submit_button {
@@ -375,7 +384,7 @@ button {
 
 .faq {
   text-align: center;
-  padding: 0  0;
+  padding: 0 0;
 }
 
 .faq-title {
@@ -423,6 +432,7 @@ button {
   font-size: 24px;
   cursor: pointer;
 }
+
 /* Hide the FAQ answers by default */
 
 .faq-answer {
@@ -442,6 +452,7 @@ button {
   align-items: center;
   margin: 20px;
 }
+
 #search-form {
   display: flex;
   justify-content: center;
@@ -452,11 +463,12 @@ button {
   width: 400px;
   height: 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  
+
 }
+
 .search-button {
- text-align: center;
- background-color: #F54749;
+  text-align: center;
+  background-color: #F54749;
 }
 
 #search-input {
@@ -481,8 +493,8 @@ button {
 }
 
 .herosectionimage {
-  float: right; 
-  margin-top: 80px; 
+  float: right;
+  margin-top: 80px;
   margin-right: 80px;
 }
 
@@ -491,11 +503,11 @@ button {
 }
 
 .herotitle {
-  font-family: 'Poppins'; 
-  font-style: normal; 
-  font-weight: 700; 
-  font-size: 49px; 
-  line-height: 64px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 64px;
   margin-top: 10px;
 }
 
@@ -504,11 +516,11 @@ button {
 }
 
 .herodisc {
-  font-family: 'Poppins'; 
-  font-style: normal; 
-  font-weight: 400; 
-  font-size: 17px; 
-  line-height: 26px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
   margin-top: -30px;
 }
 
@@ -533,34 +545,34 @@ button {
 }
 
 .special {
-  margin-left: 120px; 
-  display: flex; 
-  flex-direction: row; 
-  font-family: 'Poppins'; 
-  font-style: normal; 
-  font-weight: 700; 
-  font-size: 25px; 
-  line-height: 40px; 
-  letter-spacing: 0.02em; 
+  margin-left: 120px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
   color: #F54749;
 }
 
 .specdesc {
-  text-align: center; 
-  margin-left: 120px; 
-  display: flex; 
+  text-align: center;
+  margin-left: 120px;
+  display: flex;
   flex-direction: row;
-  font-family: 'Poppins'; 
-  font-style: normal; 
-  font-weight: 400; 
-  font-size: 14px; 
-  line-height: 21px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
   letter-spacing: 0.02em;
 }
 
 .card {
-  margin-left: 0px; 
-  margin-right: 0px; 
+  margin-left: 0px;
+  margin-right: 0px;
   border-radius: 50px;
 }
 
@@ -573,8 +585,8 @@ h3 {
 }
 
 .hotel {
-  margin-left: 0px; 
-  margin-right: 0px; 
+  margin-left: 0px;
+  margin-right: 0px;
   border-radius: 50px;
   margin-top: -420px;
 }
@@ -584,44 +596,44 @@ h3 {
 }
 
 .icon {
-  margin-left: 20px; 
-  color: #F54749 ;
+  margin-left: 20px;
+  color: #F54749;
 }
 
 .submitbutton {
-  color: #fff; 
-  background-color: #F54749; 
-  text-align: center; 
+  color: #fff;
+  background-color: #F54749;
+  text-align: center;
   font-size: 14px;
 }
 
 .getiton {
-  width: 425px; 
-  height: 130px; 
-  margin-left: 70px; 
+  width: 425px;
+  height: 130px;
+  margin-left: 70px;
   margin-top: -50px;
 }
 
 .mobilemockup {
-  width: 180px; 
-  height: 100%; 
+  width: 180px;
+  height: 100%;
   margin-top: -100px;
 }
 
 .faqdesc {
-  margin-top: -30px; 
-  font-family: 'Poppins'; 
-  font-style: normal; 
-  font-weight: 400; 
-  font-size: 16px; 
-  line-height: 24px; 
-  /* identical to box height */ 
+  margin-top: -30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
   color: #000000;
 }
 
 i {
-  margin-left: 20px; 
-  color: #F54749 ;
+  margin-left: 20px;
+  color: #F54749;
   margin-top: 800px;
 }
 
@@ -635,4 +647,65 @@ i {
 
 .specdesc2 {
   margin-right: 175px;
+}
+
+.end {
+  height: 250px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(255, 232, 236);
+}
+
+.end1 {
+  width: 200px;
+  display: flex;
+
+}
+
+.end1 h3 {
+  padding-left: 20px;
+}
+
+.end2 {
+  width: 200px;
+  display: flex;
+
+}
+
+.end2 h3 {
+  padding-left: 20px;
+}
+
+.end3 {
+  width: 200px;
+  display: flex;
+
+}
+
+.end3 h3 {
+  padding-left: 20px;
+}
+
+.end1 li {
+  padding: 10px 0px;
+}
+
+.end2 li {
+  padding: 10px 0px;
+}
+
+.end3 li {
+  padding: 10px 0px;
+}
+footer{
+  position: relative;
+  height: 50px;
+  font-weight: bold;
+  background-color: rgb(255, 72, 72);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
