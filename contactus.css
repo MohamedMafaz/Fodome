@@ -62,6 +62,19 @@ button {
   font-size: 15px;
   padding: 10px 32px;
 }
+.send-button {
+    background-color: var(--accent);
+    border: none;
+    border-radius: 32px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: var(--on-accent);
+    cursor: pointer;
+    font-size: 15px;
+    padding: 7px 40px;
+    width: 120px;
+    height: 35px;
+    margin: 30px auto;
+}
 
 /* Contact Us Section */
 #contact-container {
