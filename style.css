@@ -99,6 +99,7 @@ button {
 .recentlyordered {
     text-align: left;
     padding: 50px 0;
+
 }
 
 .recentlyordered-title {
@@ -131,9 +132,7 @@ button {
     height: 380px;
     border-radius: 10px;
     overflow: hidden;
-    margin-right: -50px;
-    margin-bottom: 20px;
-    margin-left: 80px;
+    margin-bottom: 50px;
 }
 
 .product-image {
@@ -245,15 +244,20 @@ button {
     margin-top: -30px;
 }
 
+.whoweare-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 5em;
+}
+
 .video-container {
-    position: absolute;
-    top: 0;
-    right: 80px;
     width: 446px;
     height: 251px;
     border-radius: 25px;
     overflow: hidden;
-    margin-top: 3500px;
 }
 
 .video-container iframe {
@@ -268,8 +272,7 @@ button {
     font-size: 17px;
     line-height: 26px;
     color: #000000;
-    margin-right: 630px;
-    margin-left: 160px;
+    width: 600px;
     margin-top: 40px;
     text-align: left;
 }
@@ -582,11 +585,14 @@ h3 {
 
 .journeyimg {
     width: 100%;
+    margin-bottom: -5em;
 }
 
 .hotel {
-    margin-left: 0px;
-    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
 }
 
