@@ -55,7 +55,7 @@ These technologies work together to create a user-friendly and responsive web in
 
 ## Thank you for contributors ✨
 
-Congratulations! You've successfully contributed to the project. Your changes will now be reviewed by the project maintainers, and they may provide feedback or merge your changes into the main project if they are deemed appropriate.
+On behalf of the Fodome project, we would like to express our sincere gratitude for your valuable contribution. Your efforts and dedication have greatly contributed to the success and improvement of our open-source initiative.
 
 <a href="https://github.com/amanjaiman1/Product_3D/graphs/contributors"> 
     <img src="https://contrib.rocks/image?repo=MohamedMafaz/Fodome" /> 
