@@ -19,6 +19,7 @@ nav {
     top: 0;
     width: 100%;
     background-color: #FFF9F9;
+    border-bottom: 1px solid #000;
 }
 
 nav .nav__menu {
@@ -106,6 +107,11 @@ button {
 
 
 .hero-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateY(90px);
     
 }
 
@@ -771,6 +777,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         padding: 2rem;
+        border-bottom: none;
     }
 
     nav .Logo {
@@ -801,4 +808,40 @@ footer {
     right: 0rem;
     top: 3rem;
    }
+
+   .hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+    }
+
+    .herosectionimage {
+        max-width: 50%;
+    }
+
+    .hero_section-content {
+        text-align: center;
+    }
+
+    .worldwidesupply {
+        margin-block-end: 2rem;
+    }
+
+    .herodesc {
+        margin-block: 1.5rem;
+    }
 }
+
+
+@media screen and (max-width: 400px) {
+    .hero_section-content .herotitle{
+        font-size: 35px;
+        line-height: 1.3;
+    }
+
+    .hero_section-content .herodesc {
+        font-size: 11px;
+    }
+}
+
