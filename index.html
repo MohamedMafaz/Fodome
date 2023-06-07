@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fodome</title>
     <link rel="icon" type="image/x-icon" href="Images/favicon.png">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -32,9 +33,18 @@
         </div>
     </div>
 
+
     <nav>
         <img class="Logo" src="Images/Fodome.png" alt="Logo">
-        <ul class="list-container">
+
+        <div aria-label="navigation-toggle" class="hamburger" id="hamburger" role="button" tabindex="0" aria-controls="navMenu" aria-pressed="false" aria-expanded="false">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+
+
+        <ul class="list-container nav__menu" id="navMenu">
             <li><a href="#" class="home">Home</a></li>
             <li><a href="#">Why Fodome?</a></li>
             <li><a href="#">About Us</a></li>
@@ -44,6 +54,8 @@
             <li><button>SIGN UP</button></li>
         </ul>
     </nav>
+
+
     <section class="herosection">
         <img src="Images/hero_section_image.png" alt="Image" class="herosectionimage">
         <img src="Images/Worldwide_supply.svg" alt="Worldwide" class="worldwidesupply">
@@ -77,6 +89,7 @@
         <h2 class="recentlyordered-title">Recently Ordered Foods By <br> Our Customers</h2>
         <div class="recentlyordered-line"></div>
     </section>
+
     <ul class="card">
         <li>
             <div class="product-card">
@@ -118,15 +131,18 @@
             </div>
         </li>
     </ul>
+
     <section class="journey">
         <h2 class="journey-title">Our Journey</h2>
         <div class="journey-line"></div>
     </section>
     <img class="journeyimg" src="Images/journey.svg">
+
     <section class="recentlyordered">
         <h2 class="recentlyordered-title">Experience luxury with our <br> partnered hotels</h2>
         <div class="recentlyordered-line"></div>
     </section>
+
     <ul class="hotel">
         <li>
             <div class="product-card">
@@ -203,6 +219,7 @@
             <img src="Images/Mobile Mockup.png" alt="App Image" class="mobilemockup">
         </div>
     </section>
+
     <section class="faq">
         <h2 class="faq-title">Questions? Look Here</h2>
         <p class="faq-desc">
@@ -213,7 +230,7 @@
     <section class="faq-section">
 
         <!-- search FAQ for keywords -->
-        <div class="search-container">
+        <!-- <div class="search-container">
             <form id="search-form">
                 <input id="search-input" type="text" placeholder="Search FAQ...">
                 <button class="search-button" type="submit">Search</button>
@@ -274,7 +291,7 @@
 
     <footer>
         Copyright @2023 | Website Designed and Developed By Tech illuminate
-    </footer>
+    </footer> -->
 
     <script src="main.js"></script>
     <script src="loading.js"></script>
