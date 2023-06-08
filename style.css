@@ -116,8 +116,10 @@ button {
 }
 
 .specialties {
-    text-align: center;
-    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 12rem;
 }
 
 .specialties-title {
@@ -128,15 +130,15 @@ button {
     line-height: 64px;
     letter-spacing: 0.02em;
     color: #F54749;
-    margin-top: 100px;
+    position: relative;
 }
 
 .specialties-line {
-    height: 4px;
-    width: 80px;
+    height: 3px;
+    width: 10rem;
     background-color: #FFA756;
-    margin: 20px auto 0;
-    margin-top: -30px;
+    position: absolute;
+
 }
 
 .horizontal_list_1 {
@@ -834,6 +836,14 @@ footer {
 }
 
 
+@media screen and (max-width: 768px) {
+    .specialties-title {
+        font-size: 30px;
+
+    }
+}
+
+
 @media screen and (max-width: 400px) {
     .hero_section-content .herotitle{
         font-size: 35px;
@@ -842,6 +852,11 @@ footer {
 
     .hero_section-content .herodesc {
         font-size: 11px;
+    }
+
+    .specialties-title {
+        font-size: 25px;
+
     }
 }
 
