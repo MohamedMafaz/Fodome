@@ -2,6 +2,10 @@
 #TODO Fix the who we are section 
 #TODO Fix the app section
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +15,7 @@
 body {
     background-color: #FFF9F9;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 nav {
@@ -399,7 +404,7 @@ button {
     justify-content: space-around;
     align-items: center;
     background-color: #FFF0F0;
-    margin-block: 5rem;
+    margin-block-start: 8rem;
 }
 
 .app-content {
@@ -501,8 +506,8 @@ button {
 }
 
 .faq {
+    margin-block: 3rem;
     text-align: center;
-    padding: 0 0;
 }
 
 .faq-title {
@@ -513,23 +518,27 @@ button {
     line-height: 64px;
     letter-spacing: 0.02em;
     color: #F54749;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .faq-line {
     height: 4px;
     width: 80px;
     background-color: #FFA756;
-    margin: 20px auto 0;
-    margin-top: -10px;
+    margin: 20px auto;
+    /* margin-top: -10px; */
 }
 
 
 /* 1234567890 */
 
 .faq-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #f2f2f2;
-    padding: 50px 0;
+    padding-block: 3rem;
+    /* padding: 50px 0; */
 }
 
 .section-title {
@@ -539,8 +548,9 @@ button {
 }
 
 .faq-container {
-    max-width: 800px;
-    margin: 0 auto;
+    margin-block-start: 3rem;
+    /* max-width: 800px;
+    margin: 0 auto; */
 }
 
 .faq-item {
@@ -573,7 +583,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 #search-form {
@@ -769,9 +779,9 @@ i {
 
 }
 
-.end1 h3 {
+/* .end1 h3 {
     padding-left: 20px;
-}
+} */
 
 .end2 {
     width: 200px;
@@ -779,9 +789,9 @@ i {
 
 }
 
-.end2 h3 {
+/* .end2 h3 {
     padding-left: 20px;
-}
+} */
 
 .end3 {
     width: 200px;
@@ -789,9 +799,9 @@ i {
 
 }
 
-.end3 h3 {
+/* .end3 h3 {
     padding-left: 20px;
-}
+} */
 
 .end1 li {
     padding: 10px 0px;
@@ -805,15 +815,29 @@ i {
     padding: 10px 0px;
 }
 
-footer {
-    position: relative;
-    height: 50px;
-    font-weight: bold;
-    background-color: rgb(255, 72, 72);
-    color: white;
+.end li {
+    cursor: pointer;
+}
+
+.end1 ul , .end2 ul , .end3 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.end1 h3 , .end2 h3 , .end3 h3 {
+    margin: 0;
+}
+
+.copyright {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-block: .5rem;
+    font-size: 10px;
+    position: relative;
+    font-weight: bold;
+    background-color: rgb(255, 72, 72);
+    color: white;
 }
 
 
