@@ -141,6 +141,49 @@ button {
 
 }
 
+
+.special-container {
+    margin-block: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.special-content {
+    display: flex;
+    align-items: center;
+    gap: 10.5rem;
+}
+
+
+.special-content > * {
+    text-align: center;
+    margin-block-start: 1.5rem;
+}
+
+.special-content h3 {
+    color: #F54749;
+    margin-block-end: .5rem;
+}
+
+.specialtiesimage {
+    max-width: 50%;
+}
+
+.special-list {
+    display: flex;
+    align-items: center;
+    gap: 6.5rem;
+    /* flex-direction: row; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #F54749;
+}
+
 .horizontal_list_1 {
     display: flex;
     flex-direction: row;
@@ -585,7 +628,7 @@ button {
     margin-top: 10px;
 }
 
-.worldoftaste {
+/* .worldoftaste {
     margin-right: 200px
 }
 
@@ -595,24 +638,9 @@ button {
 
 .dontbehungry {
     margin-right: 20px
-}
+} */
 
-.specialtiesimage {
-    margin-left: 120px;
-}
 
-.special {
-    margin-left: 120px;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    color: #F54749;
-}
 
 .specdesc {
     text-align: center;
@@ -771,8 +799,23 @@ footer {
 }
 
 
+@media screen and (max-width: 1440px) {
+    .special-container .special-content {
+        gap: 5rem;
+    }
+}
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1100px) {
+    .special-list {
+        gap: 4rem;
+        font-size: 20px;
+
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
 
     nav {
         display: flex;
@@ -802,7 +845,7 @@ footer {
     padding-block: 2rem;
     border-radius: 10px;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: transparent;
     transform: translateY(-550%);
     transition: transform 500ms ease;
     z-index: 2;
@@ -833,6 +876,12 @@ footer {
     .herodesc {
         margin-block: 1.5rem;
     }
+
+    .special-container .special-content {
+        gap: 1rem;
+    }
+
+
 }
 
 
@@ -841,10 +890,20 @@ footer {
         font-size: 30px;
 
     }
+
+    .special-list {
+        gap: 2rem;
+        font-size: 16px;
+
+    }
+
+    .special-container .special-content > * {
+        font-size: 12px;
+    }
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     .hero_section-content .herotitle{
         font-size: 35px;
         line-height: 1.3;
@@ -857,6 +916,32 @@ footer {
     .specialties-title {
         font-size: 25px;
 
+    }
+
+    .special-list {
+        gap: .5rem;
+        font-size: 10px;
+
+    }
+
+    .special-container .specialtiesimage {
+        max-width: 80%;
+    }
+
+    .special-container .special-content > * {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .special-container .special-content {
+        gap: .5rem;
+
+    }
+
+    .special-container .special-content > * {
+        font-size: 8px;
     }
 }
 
