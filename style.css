@@ -184,6 +184,67 @@ button {
     color: #F54749;
 }
 
+.recentlyordered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 12rem;
+
+}
+
+.recentlyordered-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    color: #F54749;
+    position: relative;
+}
+
+.recentlyordered-line {
+    height: 3px;
+    width: 10rem;
+    background-color: #FFA756;
+    position: absolute;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-block-start: 5rem;
+}
+
+.journey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 12rem;
+}
+
+.journey-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    color: #F54749;
+    position: relative;
+}
+
+.journey-line {
+    height: 3px;
+    width: 10rem;
+    background-color: #FFA756;
+    position: absolute;
+}
+
+
 .horizontal_list_1 {
     display: flex;
     flex-direction: row;
@@ -193,33 +254,7 @@ button {
     margin-right: 10px;
 }
 
-.recentlyordered {
-    text-align: left;
-    padding: 50px 0;
 
-}
-
-.recentlyordered-title {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 50xpx;
-    letter-spacing: 0.02em;
-    color: #F54749;
-    margin-top: 40px;
-    text-align: left;
-    margin-left: 80px;
-    margin-top: -20px;
-}
-
-.recentlyordered-line {
-    height: 4px;
-    width: 80px;
-    background-color: #FFA756;
-    margin: -20px 0 0 0;
-    margin-left: 80px;
-}
 
 .product-card {
     position: relative;
@@ -230,6 +265,7 @@ button {
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .product-image {
@@ -293,29 +329,7 @@ button {
     margin-bottom: 20px;
 }
 
-.journey {
-    text-align: center;
-    padding: 0 0;
-}
 
-.journey-title {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 64px;
-    letter-spacing: 0.02em;
-    color: #F54749;
-    margin-top: 20px;
-}
-
-.journey-line {
-    height: 4px;
-    width: 80px;
-    background-color: #FFA756;
-    margin: 20px auto 0;
-    margin-top: -30px;
-}
 
 .whoweare {
     text-align: center;
@@ -655,11 +669,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-.card {
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 50px;
-}
+
 
 h3 {
     font-family: Poppins;
@@ -812,6 +822,11 @@ footer {
         font-size: 20px;
 
     }
+
+    .card {
+        gap: 4rem;
+    }
+    
 }
 
 
@@ -881,6 +896,10 @@ footer {
         gap: 1rem;
     }
 
+    .card {
+        gap: 1rem;
+    }
+
 
 }
 
@@ -899,6 +918,25 @@ footer {
 
     .special-container .special-content > * {
         font-size: 12px;
+    }
+
+    .recentlyordered-title {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .recentlyordered-line {
+        display: none;
+    }
+    
+
+    .card {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .product-card {
+        cursor: none;
     }
 }
 
@@ -930,6 +968,12 @@ footer {
 
     .special-container .special-content > * {
         font-size: 9px;
+    }
+
+    .recentlyordered-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-inline: 1rem;
     }
 }
 
