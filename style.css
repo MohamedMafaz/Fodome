@@ -154,9 +154,9 @@ button {
 
 .hero-section .hero-btns {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: baseline;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .hero-section .cta-btn {
@@ -169,14 +169,18 @@ button {
   cursor: pointer;
 }
 
-.specialties {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-block-start: 12rem;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(30%);
+  margin-block: 5rem;
 }
 
-.specialties-title {
+
+.container .title {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -187,14 +191,30 @@ button {
     position: relative;
 }
 
-.specialties-line {
-    height: 3px;
+.container .underline {
+    height: 5px;
     width: 3.125rem;
     background-color: #FFA756;
-    position: absolute;
-    margin-block-start: 5rem;
 
 }
+
+
+.container .product-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 4rem;
+  gap: 7rem;
+}
+
+
+.specialties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 12rem;
+}
+
 
 
 .special-container {
@@ -344,8 +364,15 @@ button {
     height: 380px;
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 50px;
     cursor: pointer;
+}
+
+.product-card h3 {
+  text-align: center;
+}
+
+.product-card p {
+  text-align: center;
 }
 
 .product-image {
@@ -983,6 +1010,22 @@ i {
     .card {
         gap: 1rem;
     }
+
+    .container {
+      transform: translateY(10%);
+      margin-block: 5rem;
+    }
+
+
+    .container .product-cards {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .product-cards .product-card img {
+      margin-block-end: .5rem;
+    } 
+
 
     .whoweare-content {
         gap: 3rem;
