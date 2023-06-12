@@ -294,14 +294,15 @@ button {
     margin-block-start: 5rem;
 }
 
-.journey {
+.our-journey {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-block-start: 12rem;
 }
 
-.journey-title {
+.section-title {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -312,11 +313,15 @@ button {
     position: relative;
 }
 
-.journey-line {
-    height: 3px;
-    width: 10rem;
+.underline {
+    height: 5px;
+    width: 5rem;
     background-color: #FFA756;
-    position: absolute;
+}
+
+.our-journey img {
+  max-width: 100%;
+  margin-block-start: 5rem;
 }
 
 
@@ -324,6 +329,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-block-start: 10rem;
 }
 
@@ -339,10 +345,9 @@ button {
 }
 
 .whoweare-line {
-    height: 3px;
-    width: 10rem;
+    height: 5px;
+    width: 4rem;
     background-color: #FFA756;
-    position: absolute;
 }
 
 .horizontal_list_1 {
@@ -508,30 +513,37 @@ button {
     margin-left: 80px;
 } */
 
+/* .form-group {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  height: 40px;
+} */
+
 .form-group {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 50px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    width: 400px;
-    height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .form-group input {
-    flex: 1;
-    border: none;
-    background-color: transparent;
-    margin-right: 10px;
+  height: 2.5rem;
+  width: 22rem;
+  border: none;
+  border-radius: 17px;
 }
 
-.form-group button {
+.form-group .submitbutton {
     border: none;
-    background-color: transparent;
-    font-size: 20px;
-    color: #F54749;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #FFF;
     cursor: pointer;
+    position: absolute;
+    right: 53px;
 }
 
 .app-text {
@@ -617,7 +629,6 @@ button {
 .section-title {
     text-align: center;
     font-size: 36px;
-    margin-bottom: 30px;
 }
 
 .faq-container {
@@ -659,8 +670,34 @@ button {
     /* margin: 20px; */
 }
 
+
+.form-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.form-group input {
+  height: 2.5rem;
+  width: 22rem;
+  border: none;
+  border-radius: 17px;
+}
+
+.form-group .submitbutton {
+    border: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #FFF;
+    cursor: pointer;
+    position: absolute;
+    right: 53px;
+}
+
+
+
 #search-form {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
@@ -668,21 +705,38 @@ button {
     border-radius: 50px;
     width: 400px;
     height: 40px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); */
+
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .search-button {
-    text-align: center;
-    background-color: #F54749;
+    /* text-align: center;
+    background-color: #F54749; */
+
+    border: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #FFF;
+    cursor: pointer;
+    position: absolute;
+    right: 53px;
 }
 
 #search-input {
-    flex: 1;
+    /* flex: 1;
     border: none;
     height: 100%;
     text-align: center;
     background-color: transparent;
-    margin-right: 10px;
+    margin-right: 10px; */
+
+    height: 2.5rem;
+    width: 22rem;
+    border: none;
+    border-radius: 17px;
 }
 
 .search-input input[type="text"] {
@@ -795,12 +849,9 @@ h3 {
     font-size: 14px;
 }
 
-/* .getiton {
-    width: 425px;
-    height: 130px;
-    margin-left: 70px;
-    margin-top: -50px;
-} */
+.getiton {
+max-width: 100%;
+}
 
 /* .mobilemockup {
     width: 180px;
@@ -819,11 +870,11 @@ h3 {
     color: #000000;
 }
 
-i {
+/* i {
     margin-left: 20px;
     color: #F54749;
     margin-top: 800px;
-}
+} */
 
 .fodome {
     color: #F54749;
