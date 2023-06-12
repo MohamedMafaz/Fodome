@@ -2,9 +2,11 @@
 #TODO Fix the who we are section 
 #TODO Fix the app section
 
+
 html {
     scroll-behavior: smooth;
 }
+
 
 * {
     padding: 0;
@@ -12,11 +14,13 @@ html {
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #FFF9F9;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
 
 nav {
     display: flex;
@@ -31,12 +35,30 @@ nav {
     border-bottom: 1px solid #000;
 }
 
+
 nav .nav__menu {
     display: flex;
     /* justify-content: ; */
     align-items: center;
     gap: 2rem;
 }
+
+
+nav .nav__menu li a {
+  font-size: 1rem;
+}
+
+
+nav .nav__menu li a:hover {
+  color: #f54749;
+  border-bottom: 2px solid #f54749;
+}
+
+
+.signUp-btn {
+  cursor: pointer;
+}
+
 
 .hamburger {
     display: none;
@@ -52,6 +74,7 @@ nav .nav__menu {
     transition: transform 100ms ease-in-out;
 
 }
+
 
 .hamburger .bar:nth-child(2) {
     transform: translateX(7px)
@@ -110,9 +133,14 @@ button {
     border: none;
 }
 
-/* .Logo {
+.Logo {
+  cursor: pointer;
+}
 
-} */
+
+.Logo:hover {
+  border-bottom: 2px solid #f54749;
+}
 
 
 .hero-section {
@@ -122,6 +150,23 @@ button {
     align-items: center;
     transform: translateY(90px);
     
+}
+
+.hero-section .hero-btns {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+.hero-section .cta-btn {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  color: #000;
+}
+
+.hero-section .cta-btn, .herobutton {
+  cursor: pointer;
 }
 
 .specialties {
@@ -144,9 +189,10 @@ button {
 
 .specialties-line {
     height: 3px;
-    width: 10rem;
+    width: 3.125rem;
     background-color: #FFA756;
     position: absolute;
+    margin-block-start: 5rem;
 
 }
 
@@ -906,6 +952,12 @@ i {
     flex-direction: column;
     gap: 5rem;
     
+    }
+
+
+    .hero-section .hero-btns {
+      align-items: unset;
+      flex-direction: column;
     }
 
     .herosectionimage {
