@@ -264,6 +264,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-block-start: 12rem;
+    flex-direction: column;
 
 }
 
@@ -279,10 +280,9 @@ button {
 }
 
 .recentlyordered-line {
-    height: 3px;
+    height: 5px;
     width: 10rem;
     background-color: #FFA756;
-    position: absolute;
 }
 
 
