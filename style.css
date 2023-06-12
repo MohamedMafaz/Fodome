@@ -1,7 +1,4 @@
 
-#TODO Fix the who we are section 
-#TODO Fix the app section
-
 
 html {
     scroll-behavior: smooth;
@@ -641,10 +638,15 @@ button {
     margin-bottom: 20px;
 }
 
-.faq-question {
-    font-weight: bold;
-    font-size: 24px;
-    cursor: pointer;
+.faq-questions {
+    border: 2px solid;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+.faq-questions .faq {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.09);
+
 }
 
 
@@ -781,6 +783,18 @@ button {
     font-size: 17px;
     line-height: 26px;
     margin-top: -30px;
+}
+
+
+.wtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wtitle p {
+  margin-block-end: 1rem;
 }
 
 .herobutton {
