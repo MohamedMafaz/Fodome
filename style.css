@@ -29,7 +29,6 @@ nav {
     top: 0;
     width: 100%;
     background-color: #FFF9F9;
-    border-bottom: 1px solid #000;
 }
 
 
@@ -131,7 +130,8 @@ button {
 }
 
 .Logo {
-  cursor: pointer;
+    z-index: 10;
+    cursor: pointer;
 }
 
 
@@ -527,20 +527,23 @@ button {
 }
 
 .form-group input {
-  height: 2.5rem;
-  width: 22rem;
+  height: unset;
+  width: 100%;
   border: none;
   border-radius: 17px;
+  padding-inline-start: 1rem;
+  padding-block: 0.5rem;
+  position: relative;
 }
 
 .form-group .submitbutton {
     border: none;
-    font-size: 16px;
-    padding: 10px 15px;
+    font-size: 15px;
+    padding: 7px 16px;
     color: #FFF;
     cursor: pointer;
     position: absolute;
-    right: 53px;
+    right: 0;
 }
 
 .app-text {
@@ -574,7 +577,7 @@ button {
 } */
 
 ::placeholder {
-    font-size: 16px;
+    font-size: 13px;
     /* replace with desired font size */
 }
 
@@ -587,10 +590,11 @@ button {
     border: none;
 }
 
-.faq {
+/* .faq {
     margin-block: 3rem;
     text-align: center;
-}
+    box-shadow: 3px 4px 18px rgba(0, 0, 0, 0.14);
+} */
 
 .faq-title {
     font-family: 'Poppins', sans-serif;
@@ -629,7 +633,7 @@ button {
 }
 
 .faq-container {
-    margin-block-start: 3rem;
+    margin-block: 3rem;
     /* max-width: 800px;
     margin: 0 auto; */
 }
@@ -639,14 +643,29 @@ button {
 }
 
 .faq-questions {
-    border: 2px solid;
-    background-color: rgba(255, 255, 255, 0.521);
+    margin-block-start: 3rem;
 }
 
 .faq-questions .faq {
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.09);
+  box-shadow: 3px 4px 18px rgba(0, 0, 0, 0.14);
+  text-align: start;
+  padding-inline: 5rem;
+  padding-block: 1.5rem;
 
+}
+
+.faq-questions .faq .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 800;
+
+}
+
+.faq-questions .faq .answer {
+    margin-block-start: 1rem;
 }
 
 
@@ -654,8 +673,7 @@ button {
 
 .faq-answer {
     display: none;
-    font-size: 18px;
-    margin-top: 10px;
+
 }
 
 
@@ -663,6 +681,8 @@ button {
 
 .show-answer {
     display: block;
+    font-size: 18px;
+    margin-block-start: 1rem;
 }
 
 .search-container {
@@ -679,14 +699,14 @@ button {
   position: relative;
 }
 
-.form-group input {
+/* .form-group input {
   height: 2.5rem;
   width: 22rem;
   border: none;
   border-radius: 17px;
-}
+} */
 
-.form-group .submitbutton {
+/* .form-group .submitbutton {
     border: none;
     font-size: 16px;
     padding: 10px 15px;
@@ -694,7 +714,7 @@ button {
     cursor: pointer;
     position: absolute;
     right: 53px;
-}
+} */
 
 
 
@@ -852,7 +872,7 @@ h3 {
 } */
 
 .icon {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     color: #F54749;
 }
 
@@ -864,14 +884,12 @@ h3 {
 }
 
 .getiton {
-max-width: 100%;
+    max-width: 80%;
 }
 
-/* .mobilemockup {
-    width: 180px;
-    height: 100%;
-    margin-top: -100px;
-} */
+.mobilemockup {
+    max-width: 100%;
+}
 
 .faqdesc {
     margin-top: -30px;
@@ -967,12 +985,9 @@ max-width: 100%;
 }
 
 .copyright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding-block: .5rem;
     font-size: 10px;
-    position: relative;
     font-weight: bold;
     background-color: rgb(255, 72, 72);
     color: white;
@@ -1030,7 +1045,7 @@ max-width: 100%;
     padding-block: 2rem;
     border-radius: 10px;
     text-align: center;
-    background-color: transparent;
+    background-color: inherit;
     transform: translateY(-550%);
     transition: transform 500ms ease;
     z-index: 2;
@@ -1148,6 +1163,11 @@ max-width: 100%;
         flex-direction: column-reverse;
 
     }
+
+    .faq-questions .faq {
+        padding-inline: 2rem;
+      
+      }
 }
 
 
@@ -1192,6 +1212,30 @@ max-width: 100%;
 
     .app-description {
         font-size: 16px;
+    }
+
+    .end {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        flex-direction: column;
+        gap: 2rem;
+        padding-inline: 2rem;
+        padding-block: 5rem;
+    }
+
+    .wtitle h2 {
+        line-height: 50px;
+    }
+
+    .wtitle p {
+        text-align: center;
+        margin-block-start: 1.5rem;
+    }
+
+    .wtitle .underline {
+        display: none;
     }
 }
 
