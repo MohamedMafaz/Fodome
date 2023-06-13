@@ -6,22 +6,6 @@ const navMenu = document.querySelector('#navMenu');
 const hamburger = document.querySelector('#hamburger');
 
 
-// searchForm.addEventListener('submit', (event) => {
-//   event.preventDefault();
-
-//   const searchTerm = searchInput.value.toLowerCase();
-
-//   faqQuestions.forEach((question) => {
-//     const questionText = question.textContent.toLowerCase();
-
-//     if (questionText.includes(searchTerm)) {
-//       question.nextElementSibling.classList.add('show-answer');
-//     } else {
-//       question.nextElementSibling.classList.remove('show-answer');
-//     }
-//   });
-// });
-
 faqQuestions.forEach((question) => {
   question.addEventListener('click', () => {
     question.nextElementSibling.classList.toggle('show-answer');
@@ -32,7 +16,6 @@ faqQuestions.forEach((question) => {
 hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
     hamburger.classList.toggle('active');
-    console.log("...")
 })
 
 
