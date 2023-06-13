@@ -34,7 +34,6 @@ nav {
 
 nav .nav__menu {
     display: flex;
-    /* justify-content: ; */
     align-items: center;
     gap: 2rem;
 }
@@ -101,9 +100,6 @@ ul {
     list-style: none;
 }
 
-/* li {
-    
-} */
 
 a {
     color: #000;
@@ -116,9 +112,7 @@ a.home {
     
 }
 
-/* .list-container {
-    text-align: right;
-} */
+
 
 button {
     background-color: #F54749;
@@ -246,7 +240,6 @@ button {
     display: flex;
     align-items: center;
     gap: 6.5rem;
-    /* flex-direction: row; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -399,7 +392,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* Align items to the center */
     background-color: rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
     transform: translateY(100%);
@@ -437,9 +429,6 @@ button {
     margin-top: -50px;
     margin-bottom: 20px;
 }
-
-
-
 
 
 .whoweare-content {
@@ -491,34 +480,16 @@ button {
 .app-content h2 {
     font-size: 49px;
     font-weight: bold;
-    /* margin-bottom: 20px; */
 }
 
 .app-description {
     font-size: 19px;
     line-height: 1.5;
     margin-block: 2rem;
-    /* margin-bottom: 30px;
-    margin-left: 80px; */
+
 }
 
-/* .app-form {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 30px;
-    margin-left: 80px;
-} */
 
-/* .form-group {
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 50px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  width: 400px;
-  height: 40px;
-} */
 
 .form-group {
   display: flex;
@@ -549,8 +520,7 @@ button {
 .app-text {
     font-size: 14px;
     margin-block-start: 1.5rem;
-    /* margin-bottom: 30px;
-    margin-left: 80px; */
+
 }
 
 .app-btn {
@@ -564,21 +534,9 @@ button {
     text-decoration: none;
 }
 
-/* .app-image {
-    width: 500px;
-    height: 500px;
-    border-radius: 25px;
-    overflow: hidden;
-}
-
-.app-image img {
-    width: 100%;
-    height: auto;
-} */
 
 ::placeholder {
     font-size: 13px;
-    /* replace with desired font size */
 }
 
 .submit_button {
@@ -590,11 +548,7 @@ button {
     border: none;
 }
 
-/* .faq {
-    margin-block: 3rem;
-    text-align: center;
-    box-shadow: 3px 4px 18px rgba(0, 0, 0, 0.14);
-} */
+
 
 .faq-title {
     font-family: 'Poppins', sans-serif;
@@ -604,7 +558,6 @@ button {
     line-height: 64px;
     letter-spacing: 0.02em;
     color: #F54749;
-    /* margin-top: 20px; */
 }
 
 .faq-line {
@@ -612,7 +565,6 @@ button {
     width: 80px;
     background-color: #FFA756;
     margin: 20px auto;
-    /* margin-top: -10px; */
 }
 
 
@@ -624,7 +576,6 @@ button {
     flex-direction: column;
     background-color: #f2f2f2;
     padding-block: 3rem;
-    /* padding: 50px 0; */
 }
 
 .section-title {
@@ -634,8 +585,7 @@ button {
 
 .faq-container {
     margin-block: 3rem;
-    /* max-width: 800px;
-    margin: 0 auto; */
+
 }
 
 .faq-item {
@@ -689,7 +639,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 20px; */
 }
 
 
@@ -699,45 +648,15 @@ button {
   position: relative;
 }
 
-/* .form-group input {
-  height: 2.5rem;
-  width: 22rem;
-  border: none;
-  border-radius: 17px;
-} */
-
-/* .form-group .submitbutton {
-    border: none;
-    font-size: 16px;
-    padding: 10px 15px;
-    color: #FFF;
-    cursor: pointer;
-    position: absolute;
-    right: 53px;
-} */
-
 
 
 #search-form {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 50px;
-    width: 400px;
-    height: 40px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); */
-
     display: flex;
     align-items: center;
     position: relative;
 }
 
 .search-button {
-    /* text-align: center;
-    background-color: #F54749; */
-
     border: none;
     font-size: 16px;
     padding: 10px 15px;
@@ -748,13 +667,6 @@ button {
 }
 
 #search-input {
-    /* flex: 1;
-    border: none;
-    height: 100%;
-    text-align: center;
-    background-color: transparent;
-    margin-right: 10px; */
-
     height: 2.5rem;
     width: 22rem;
     border: none;
@@ -769,19 +681,6 @@ button {
     width: 100%;
 }
 
-/* .herosection {
-    margin-left: 80px;
-}
-
-.herosectionimage {
-    float: right;
-    margin-top: 80px;
-    margin-right: 80px;
-} */
-
-/* .worldwidesupply {
-    margin-top: 100px;
-} */
 
 .herotitle {
     font-family: 'Poppins';
@@ -789,7 +688,6 @@ button {
     font-weight: 700;
     font-size: 49px;
     line-height: 64px;
-    /* margin-top: 10px; */
 }
 
 .worldwide {
@@ -820,19 +718,6 @@ button {
 .herobutton {
     margin-top: 10px;
 }
-
-/* .worldoftaste {
-    margin-right: 200px
-}
-
-.pricematter {
-    margin-right: 175px
-}
-
-.dontbehungry {
-    margin-right: 20px
-} */
-
 
 
 .specdesc {
@@ -867,12 +752,8 @@ h3 {
     border-radius: 50px;
 }
 
-/* .downloadtitle {
-    margin-left: 80px;
-} */
 
 .icon {
-    /* margin-left: 20px; */
     color: #F54749;
 }
 
@@ -898,15 +779,9 @@ h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
     color: #000000;
 }
 
-/* i {
-    margin-left: 20px;
-    color: #F54749;
-    margin-top: 800px;
-} */
 
 .fodome {
     color: #F54749;
@@ -935,9 +810,6 @@ h3 {
 
 }
 
-/* .end1 h3 {
-    padding-left: 20px;
-} */
 
 .end2 {
     width: 200px;
@@ -945,9 +817,7 @@ h3 {
 
 }
 
-/* .end2 h3 {
-    padding-left: 20px;
-} */
+
 
 .end3 {
     width: 200px;
@@ -955,9 +825,7 @@ h3 {
 
 }
 
-/* .end3 h3 {
-    padding-left: 20px;
-} */
+
 
 .end1 li {
     padding: 10px 0px;
