@@ -437,30 +437,30 @@ button {
     align-items: center;
     margin-block-start: 6rem;
     gap: 5rem;
+
 }
 
-.video-container {
-    width: 446px;
-    height: 251px;
-    border-radius: 25px;
-    overflow: hidden;
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 64px;
+  /* or 131% */
+  margin-top: 10px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
 }
 
-.video-container iframe {
-    width: 100%;
-    height: 100%;
-}
-
-.youtube-description {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
-    color: #000000;
-    width: 600px;
-    margin-top: 40px;
-    text-align: left;
+.hero-section p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  margin-top: -20px;
+  color: #000000;
 }
 
 .app-section {
@@ -521,17 +521,12 @@ button {
     font-size: 14px;
     margin-block-start: 1.5rem;
 
+
 }
 
-.app-btn {
-    display: inline-block;
-    background-color: #F54749;
-    color: #fff;
-    border-radius: 50px;
-    padding: 15px 35px;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
+.product-cards {
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -539,14 +534,9 @@ button {
     font-size: 13px;
 }
 
-.submit_button {
-    background-color: #F54749;
-    color: #fff;
-    border-radius: 32px;
-    padding: 10px 32px;
-    font-size: 14px;
-    border: none;
-}
+
+  text-align: center;
+  letter-spacing: 0.02em;
 
 
 
@@ -586,10 +576,105 @@ button {
 .faq-container {
     margin-block: 3rem;
 
+
 }
 
-.faq-item {
-    margin-bottom: 20px;
+.food-card2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, #3c3c3c 100%);
+  border-radius: 22px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.food-card2:hover::before {
+  opacity: 1;
+}
+
+.food-card3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, #3c3c3c 100%);
+  border-radius: 22px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.food-card3:hover::before {
+  opacity: 1;
+}
+.card-content h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-align: left;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 330px;
+}
+
+.card-content p {
+  margin-bottom: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-left: -210px;
+  margin-top: -20px;
+  color: #ffffff;
+}
+
+.card-content {
+  position: relative;
+}
+
+/* Code for Our Journey */
+.our-journey {
+  text-align: center;
+}
+
+.our-journey img {
+  width: 100%;
+  height: auto;
+}
+
+/* Code for Partnered Hotels */
+.food-card4 {
+  background-image: url("Images/ITC\ Grand\ Chola.svg");
+  background-size: 330px 406px;
+  width: 330px;
+  height: 406px;
+  margin-left: 60px;
+  position: relative;
+}
+
+.food-card5 {
+  background-image: url("Images/The\ Leela\ Palace.svg");
+  background-size: 330px 406px;
+  width: 330px;
+  height: 406px;
+  margin-left: -100px;
+  position: relative;
 }
 
 .faq-questions {
@@ -688,19 +773,24 @@ button {
     font-weight: 700;
     font-size: 49px;
     line-height: 64px;
+
 }
 
-.worldwide {
-    color: #F54749;
+.food-card5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, #3c3c3c 100%);
+  border-radius: 22px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-.herodisc {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
-    margin-top: -30px;
+.food-card5:hover::before {
+  opacity: 1;
 }
 
 
@@ -720,48 +810,57 @@ button {
 }
 
 
-.specdesc {
-    text-align: center;
-    margin-left: 120px;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0.02em;
+
+/* Code for Get it on */
+.getcontainer {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff0f0;
 }
 
 
-
-h3 {
-    font-family: Poppins;
+.left-section {
+  flex-basis: 70%;
+  padding-right: 20px;
 }
 
-.journeyimg {
-    width: 100%;
-    margin-bottom: -5em;
+.right-section {
+  flex-basis: 30%;
 }
 
-.hotel {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
+.left-section h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 64px;
+  /* or 131% */
+  text-align: left;
+  color: #000000;
+  margin-left: 50px;
+}
+
+.left-section h2 span {
+  color: #f54749;
 }
 
 
 .icon {
     color: #F54749;
+
 }
 
-.submitbutton {
-    color: #fff;
-    background-color: #F54749;
-    text-align: center;
-    font-size: 14px;
+.email-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 395px;
+  height: 37px;
+  background: #ffffff;
+  border-radius: 9px;
+  border: none;
 }
 
 .getiton {
@@ -783,16 +882,20 @@ h3 {
 }
 
 
-.fodome {
-    color: #F54749;
+
+.p-text {
+  margin-top: 20px;
 }
 
-.specdesc1 {
-    margin-right: 200px;
+.app-store {
+  margin-top: -20px;
+  margin-left: 50px;
 }
 
-.specdesc2 {
-    margin-right: 175px;
+.right-section img {
+  width: 100%;
+  height: auto;
+  left: 0px;
 }
 
 .end {
@@ -1118,4 +1221,5 @@ h3 {
         font-size: 8px;
     }
 }
+
 
