@@ -19,39 +19,6 @@ body {
   font-size: 15px;
 }
 
-/* Navigation Section */
-nav {
-  padding: 30px 60px;
-  width: 100vw;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 100;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-a {
-  color: var(--on-primary);
-  text-decoration: none;
-}
-
-.active {
-  color: var(--accent);
-}
-
 button {
   background-color: var(--accent);
   border: none;
