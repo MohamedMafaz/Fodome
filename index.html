@@ -6,6 +6,7 @@
     <title>Fodome</title>
     <link rel="icon" type="image/x-icon" href="Images/favicon.svg">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -32,28 +33,7 @@
         </div>
     </div>
 
-
-    <nav>
-        <img class="Logo" src="Images/Fodome.png" alt="Logo">
-
-        <div aria-label="navigation-toggle" class="hamburger" id="hamburger" role="button" tabindex="0" aria-controls="navMenu" aria-pressed="false" aria-expanded="false">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </div>
-
-
-        <ul class="list-container nav__menu" id="navMenu">
-            <li><a href="#" class="home">Home</a></li>
-            <li><a href="#">Why Fodome?</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-            <li><a href="#">Place an Order</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><button class="signUp-btn">SIGN UP</button></li>
-        </ul>
-    </nav>
-
+    <div id="navbar-content"></div>
 
     <section class="hero-section">
         <img src="Images/hero_section_image.png" alt="Image" class="herosectionimage">
@@ -317,6 +297,7 @@
 
     <footer class="copyright"> © All Rights reserved 2023 | Designed & Developed with 🤍 by Mohamed Mafaz P R & Contributors</footer>
 
+    <script src="navbar.js"></script>
     <script src="main.js"></script>
     <script src="loading.js"></script>
 </body>
